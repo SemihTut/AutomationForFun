@@ -30,4 +30,6 @@ public class MainPage {
     public String getTitleOfThePage(){
         return Driver.get().getTitle();
     }
+
+
 }

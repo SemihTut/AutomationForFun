@@ -13,6 +13,12 @@ import java.util.List;
 
 public class BrowserUtils {
 
+
+
+    public static WebElement givePowerToActiveElement(){
+        return Driver.get().switchTo().activeElement();
+    }
+
     /**
      * Switches to new window by the exact title. Returns to original window if target title not found
      * @param targetTitle

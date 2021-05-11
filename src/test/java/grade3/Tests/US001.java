@@ -2,6 +2,7 @@ package grade3.Tests;
 
 import grade3.Pages.MainPage;
 import grade3.Pages.ThirdGradePage;
+import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.BrowserUtils;
@@ -20,11 +21,11 @@ public class US001 extends TestBase{
         thirdGradePage.gamePenguin.click();
         String actualTitle = thirdGradePage.getTitleOfThePage();
         Assert.assertTrue(actualTitle.contains("Penguin"));
-
-        Thread.sleep(7000);
+        Thread.sleep(3);
+      //  BrowserUtils.scrollToElement(thirdGradePage.playTheGameButton);
         thirdGradePage.goToTheFirstFrame();
-        thirdGradePage.goToTheSecondFrame();
-        thirdGradePage.clickPlayButton();
+        BrowserUtils.givePowerToActiveElement().sendKeys(Keys.RETURN);
+
 
 
     }
