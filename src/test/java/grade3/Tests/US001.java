@@ -6,6 +6,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.BrowserUtils;
 
+/**
+ *  play button is not shown in automation
+ */
 public class US001 extends TestBase{
 
 
