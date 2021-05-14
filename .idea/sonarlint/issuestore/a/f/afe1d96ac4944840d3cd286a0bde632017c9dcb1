@@ -1,5 +1,5 @@
 
-¢
-java:S3577"„Rename class "US001" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(—§­ç8‹æâé•/
 F
 java:S2925"$Remove this use of "Thread.sleep()".(³ÿÿÿÿÿ8İ­Éê•/
+¢
+java:S3577"„Rename class "US001" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(—§­ç8‹æâé•/

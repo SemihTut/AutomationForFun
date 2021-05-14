@@ -12,7 +12,10 @@ import utilities.BrowserUtils;
  */
 public class US001 extends TestBase{
 
-
+    /**
+     *  Play button problem
+     * @throws InterruptedException
+     */
     @Test
     public void userStory() throws InterruptedException {
 

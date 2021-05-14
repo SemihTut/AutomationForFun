@@ -21,3 +21,6 @@ X
 .src/test/java/grade3/Pages/ThirdGradePage.java,8\4\84e53de2a56bfaaaad3dc71924d22fdca49e8c6a
 U
 %src/test/java/grade3/Tests/US001.java,a\f\afe1d96ac4944840d3cd286a0bde632017c9dcb1
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
